@@ -12,8 +12,11 @@ pip3 install flask_cors
 Bu komutlar, Flask, Flask-MySQLdb ve Flask-CORS paketlerini yükleyecektir. Eğer bir sanal ortam kullanıyorsanız, sanal ortamınızın aktif olduğundan emin olun. Sanal ortamınız aktif değilse, önce sanal ortamı aktive etmeniz gerekebilir. Sanal ortamı aktive etmek için genellikle aşağıdaki komutu kullanabilirsiniz (sanal ortamınızın adına bağlı olarak komutta değişiklik yapmanız gerekebilir):
 
 ```sh
-source venv/bin/activate # Unix veya MacOS için
-.\venv\Scripts\activate # Windows için
+
+python3 -m venv myenv
+source myenv/bin/activate
+pip install requests
+
 ```
 
 Yukarıdaki adımların ardından Flask ve diğer gerekli paketler yüklendikten sonra, uygulamanızı tekrar çalıştırmayı deneyin:
