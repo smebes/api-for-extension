@@ -1,4 +1,3 @@
-Verdiğiniz hata mesajına göre, Python uygulamanızı çalıştırmaya çalışırken Flask modülünün bulunamadığı görülüyor. Bu genellikle gerekli modüllerin Python ortamınıza yüklenmemiş olmasından kaynaklanır. Sorunu çözmek için Flask ve diğer gerekli modüllerin yüklü olduğundan emin olmanız gerekmekte. Aşağıdaki adımları takip edebilirsiniz:
 
 1. Terminal veya komut istemcisini açın.
 2. Uygulamanızın bulunduğu dizine gidin.
