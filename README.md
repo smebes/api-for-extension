@@ -15,6 +15,7 @@ Bu komutlar, Flask, Flask-MySQLdb ve Flask-CORS paketlerini yükleyecektir. Eğe
 
 python3 -m venv myenv
 source myenv/bin/activate
+myenv\Scripts\activate
 pip install requests
 
 ```
